@@ -1,0 +1,75 @@
+
+.profile-card{
+  background: rgb(53, 53, 53);
+  height: 375px;
+  width: 250px;
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .profile-card_image{
+    width: 120px;
+    height: 120px;
+    border: 3px solid #f2726a;
+    border-radius: 50%;
+    overflow: hidden;
+    img{
+      object-fit: cover;
+      width:100%;
+      height:100%;
+      object-position: center;
+      cursor: pointer;
+    }
+    transition: 1s;
+
+  }
+  .profile-card_image:hover{
+    width:100%;
+    height: 100%;
+    border-radius: unset;
+    border:none;
+    transition: 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px 10px;
+  }
+  .contact-btn{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    color: rgb(38, 38, 240);
+    font-weight: 600;
+    cursor: pointer;
+    border: solid 3px #f2726a
+  }
+  .contact-btn:hover{
+    scale: 0.95;
+  }
+  h2, h3{
+    color : white;
+    text-align: center;
+    width: 100%;
+  }
+  h3{
+    margin-top: 5px;
+    color: #f2726a;
+  }
+  .profile-card_social-media{
+    font-size: 18px;
+    margin: 10px 0;
+  }
+.profile-card_social-media i:hover{
+    scale: 0.95;
+    color: rgb(57, 57, 250);
+    transition: 0.2s;
+  }
+
+}

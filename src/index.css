@@ -1,6 +1,14 @@
+*{
+  padding: 0;
+  margin : 0;
+  box-sizing: border-box;
+}
 body {
+  height:100vh;
+
+  background: linear-gradient(rgb(155, 231, 131),rgb(26, 209, 81));
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Poppins" , -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
